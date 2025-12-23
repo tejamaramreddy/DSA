@@ -98,3 +98,6 @@ Similar patterns appear in:
 
 ## Summary
 Kadane’s Algorithm is an optimal **O(n)** solution for finding the maximum subarray sum using a greedy and dynamic programming approach. Its power lies in making simple local decisions that lead to a global optimum.
+
+- https://leetcode.com/problems/maximum-subarray/
+- https://github.com/tejamaramreddy/DSA/blob/main/arrays/MaximumSumSubArray.java
