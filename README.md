@@ -12,7 +12,7 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 - Maximum Subarray (Kadane’s Algorithm)  https://github.com/tejamaramreddy/DSA/blob/main/arrays/MaximumSumSubArray.java
 - Move Zeroes  https://github.com/tejamaramreddy/DSA/blob/main/arrays/MoveZeroes.java
 - Plus One  https://github.com/tejamaramreddy/DSA/blob/main/arrays/PlusOne.java
-- Rotate Array  
+- Rotate Array  https://github.com/tejamaramreddy/DSA/blob/main/arrays/RotateArray.java
 - Merge Sorted Array  
 - Remove Duplicates from Sorted Array  
 - Remove Element  
