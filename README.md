@@ -13,7 +13,7 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 - Move Zeroes  https://github.com/tejamaramreddy/DSA/blob/main/arrays/MoveZeroes.java
 - Plus One  https://github.com/tejamaramreddy/DSA/blob/main/arrays/PlusOne.java
 - Rotate Array  https://github.com/tejamaramreddy/DSA/blob/main/arrays/RotateArray.java
-- Merge Sorted Array  
+- Merge Sorted Array  https://github.com/tejamaramreddy/DSA/blob/main/arrays/MergeSortedArray.java
 - Remove Duplicates from Sorted Array  
 - Remove Element  
 - Find Pivot Index  
