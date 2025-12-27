@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class MergeSortedArray {
 
+//  --- Starting from the end is only required when merging in-place into nums1.
+
     public static void merge(int[] nums1, int m, int[] nums2, int n){
         int i = m -1;
         int j = n -1;
