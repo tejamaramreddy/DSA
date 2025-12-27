@@ -15,7 +15,7 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 - Rotate Array  https://github.com/tejamaramreddy/DSA/blob/main/arrays/RotateArray.java
 - Merge Sorted Array  https://github.com/tejamaramreddy/DSA/blob/main/arrays/MergeSortedArray.java
 - Remove Duplicates from Sorted Array https://github.com/tejamaramreddy/DSA/blob/main/arrays/RemoveDuplicates.java 
-- Remove Element  
+- Remove Element  https://github.com/tejamaramreddy/DSA/blob/main/arrays/RemoveElement.java
 - Find Pivot Index  
 - Running Sum of 1D Array  
 - Squares of a Sorted Array  
