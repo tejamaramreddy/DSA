@@ -55,7 +55,7 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 - Permutation in String  
 - Find All Anagrams in a String  
 - Longest Repeating Character Replacement  
-- Max Consecutive Ones  
+- Max Consecutive Ones  https://github.com/tejamaramreddy/DSA/blob/main/arrays/slidingwindow/MaxConsecutiveOnes.java
 - Max Consecutive Ones III  https://github.com/tejamaramreddy/DSA/blob/main/arrays/slidingwindow/MaxConsecutiveOnesIII.java
 - Fruit Into Baskets  
 - Sliding Window Maximum (Deque)
