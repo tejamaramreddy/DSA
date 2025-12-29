@@ -49,14 +49,14 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 
 ## 🪟 Sliding Window — Included Above
 
-- Maximum Average Subarray I  
-- Minimum Size Subarray Sum  
+- Maximum Average Subarray I  https://github.com/tejamaramreddy/DSA/blob/main/arrays/slidingwindow/MaxAverageSumSubArrayI.java
+- Minimum Size Subarray Sum  https://github.com/tejamaramreddy/DSA/blob/main/arrays/slidingwindow/MinSubArrayLen.java
 - Minimum Window Substring  
 - Permutation in String  
 - Find All Anagrams in a String  
 - Longest Repeating Character Replacement  
 - Max Consecutive Ones  
-- Max Consecutive Ones III  
+- Max Consecutive Ones III  https://github.com/tejamaramreddy/DSA/blob/main/arrays/slidingwindow/MaxConsecutiveOnesIII.java
 - Fruit Into Baskets  
 - Sliding Window Maximum (Deque)
 
@@ -64,11 +64,11 @@ A curated list of **essential Data Structures & Algorithms problems** commonly a
 
 ## 🔁 Strings — 35
 
-- Valid Anagram  
-- Reverse String  
-- Reverse Words in a String  
+- Valid Anagram  https://github.com/tejamaramreddy/DSA/blob/main/strings/ValidAnagram.java
+- Reverse String  https://github.com/tejamaramreddy/DSA/blob/main/strings/ReverseString.java
+- Reverse Words in a String  https://github.com/tejamaramreddy/DSA/blob/main/strings/ReverseWords.java
 - Implement `strStr()`  
-- Longest Common Prefix  
+- Longest Common Prefix  https://github.com/tejamaramreddy/DSA/blob/main/strings/LongestCommonPrefix.java
 - Valid Palindrome  
 - Palindrome Permutation  
 - First Unique Character in a String  
