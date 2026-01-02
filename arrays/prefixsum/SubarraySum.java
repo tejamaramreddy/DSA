@@ -1,29 +1,33 @@
 package arrays.prefixsum;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class SubarraySum {
-    public static int subarraySum(int[] nums, int k){
-        int[] prefix = new int[nums.length];
-        prefix[0] = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            prefix[i] = nums[i] + prefix[i-1];
-        }
-        System.out.println(Arrays.toString(prefix));
-        int left = 0;
-        int right = 0;
+
+    public static int subarraySum(int[] nums, int k) {
+        Map<Integer, Integer> prefixCount = new HashMap<>();
+        prefixCount.put(0, 1);
+
+        int prefixSum = 0;
         int count = 0;
-        while (right < nums.length && prefix[right]<=k){
-            right++;
-        }
-        for (int i = right; i < prefix.length; i++) {
-            if(k == prefix[i] - prefix[left]){
-                count++;
+
+        for (int num : nums) {
+            prefixSum += num;
+            System.out.println(prefixSum + " " + (prefixSum - k));
+
+            if (prefixCount.containsKey(prefixSum - k)) {
+                count += prefixCount.get(prefixSum - k);
             }
+
+            prefixCount.put(prefixSum,
+                    prefixCount.getOrDefault(prefixSum, 0) + 1);
         }
-        return -1;
+
+        return count;
     }
+
     public static void main(String[] args) {
-        subarraySum(new int[]{1,2,3,4,5},9);
+        System.out.println(subarraySum(new int[]{1, 2, 3, 4, 5, 9}, 9));
     }
 }
