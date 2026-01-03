@@ -14,8 +14,10 @@ public class SubArrayDivisibleByK {
         for(int num: nums){
             prefixSum += num;
 
-            int remainder = (prefixSum + k) % k;
-            System.out.println(prefixSum + " " +remainder);
+            int remainder = (prefixSum) % k;
+            if(remainder < 0){
+                remainder += k;
+            }
 
             if(remainderCount.containsKey(remainder)){
                 count += remainderCount.get(remainder);
