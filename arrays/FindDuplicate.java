@@ -1,22 +1,24 @@
 package arrays;
 
-
 public class FindDuplicate {
     public static int findDuplicate(int[] nums) {
-        int first = nums[0];
-        int second = nums[nums[0]];
-        while (first != second) {
-            first = nums[first];
-            second = nums[nums[second]];
+        int slow = nums[0];
+        int fast = nums[0];
+
+        do {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        } while (slow != fast);
+
+        slow = nums[0];
+        while (slow != fast) {
+            slow = nums[slow];
+            fast = nums[fast];
         }
-        first = nums[0];
-        while (first != second) {
-            first = nums[first];
-            second = nums[second];
-        }
-        return  first;
+
+        return slow;
     }
     public static void main(String[] args) {
-        System.out.println(findDuplicate(new int[]{1,2,3,3}));
+        System.out.println(findDuplicate(new int[]{3,1,3,4,2}));
     }
 }
