@@ -5,7 +5,7 @@ public class BinarySearch {
         int start = 0;
         int end = nums.length - 1;
 
-        while(start <= end){
+        while(start < end){
             int mid = start + (end - start) / 2;
 
             if(nums[mid] > target ){
@@ -21,7 +21,7 @@ public class BinarySearch {
     }
     public static void main(String[] args) {
         int[] arr = {1, 3, 5, 7, 9, 11, 13};
-        int target = 0;
+        int target = 7;
         System.out.println(binarySearch(arr, target));
 
     }
