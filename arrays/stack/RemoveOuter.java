@@ -22,11 +22,30 @@ public class RemoveOuter {
         }
         return result.toString();
     }
+
+    public String removeOuterParentheses2(String S) {
+        StringBuilder result = new StringBuilder();
+        int balance = 0;
+        for (char ch : S.toCharArray()) {
+            if (ch == '(') {
+                if (balance > 0) {
+                    result.append(ch);
+                }
+                balance++;
+            } else {
+                balance--;
+                if (balance > 0) {
+                    result.append(ch);
+                }
+            }
+        }
+        return result.toString();
+    }
     public static void main(String[] args) {
         RemoveOuter removeOuter = new RemoveOuter();
-        System.out.println(removeOuter.removeOuterParentheses("()"));
-        System.out.println(removeOuter.removeOuterParentheses("()()"));
-        System.out.println(removeOuter.removeOuterParentheses("(()()())"));
-        System.out.println(removeOuter.removeOuterParentheses("(()())(())"));
+        System.out.println(removeOuter.removeOuterParentheses2("()"));
+        System.out.println(removeOuter.removeOuterParentheses2("()()"));
+        System.out.println(removeOuter.removeOuterParentheses2("(()()())"));
+        System.out.println(removeOuter.removeOuterParentheses2("(()())(())"));
     }
 }
